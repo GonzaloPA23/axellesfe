@@ -188,3 +188,82 @@
     padding-left: 10px;
     padding-right: 10px;
 }
+
+/* BLOG TATIANA */
+.blog-container {
+    max-width: 900px;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.categoria {
+    background-color: #98d8df;
+    color: #333;
+    padding: 5px 15px;
+    border-radius: 10px;
+    font-size: 0.9rem;
+}
+
+.blog-header h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-top: 15px;
+}
+
+.fecha-publicacion {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 10px;
+}
+
+.informacion-autor {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.autor-imagen {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+.blog-content {
+    margin-top: 20px;
+}
+
+.imagen-principal {
+    float: right;
+    width: 284px;
+    height: 246px;    
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.texto-contenido {
+    text-align: justify;
+    line-height: 1.6;
+    color: #555;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #333;
+    font-size: 1.5rem;
+    margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+    .imagen-principal {
+        width: 100%;
+        float: none;
+        margin: 20px 0;
+    }
+}
+
